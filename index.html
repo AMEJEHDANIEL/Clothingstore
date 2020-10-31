@@ -1,0 +1,307 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danny's clothing store</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,400;1,500;1,600;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/6b97b4e985.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <nav class="navbar navbar-expand-lg  sticky-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
+                    <span class="navbar-toggler-icon" style="color: white;"></span>
+                </button>
+                <ul class="navbar-nav nav-fill w-10 shakara">
+                    <li class="nav-item active">
+                        <a class="nav-link shakara-link" href="#" style="color: darkgoldenrod;"> JULIE CLOTHING <i class="fab fa-shopify"></i></a>
+                    </li>
+                </ul>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav nav-fill w-100">
+                        
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Designers</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Acessories
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Shoes</a>
+                                <a class="dropdown-item" href="#">Bags</a>
+                                <a class="dropdown-item" href="#">Watches</a>
+                            </div>
+                        </li>
+                
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Eye Candy
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Summer Collection</a>
+                                <a class="dropdown-item" href="#">Designer's</a>
+                                <a class="dropdown-item" href="#">Experiment</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <i class="fas fa-shopping-cart" style="font-size: 32px;color: darkgoldenrod;"></i>
+
+            </div>
+           
+           
+        </nav>
+    
+    
+    
+    <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+    
+        <!--Carousel Content-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="pic1.jpg" class="w-100" alt="">
+                <div class="carousel-caption trickcenter">
+                   <div>
+                       <p class="arrived">Just Arrived</p>
+                       <h1 class="d-inline-block denim " style="font-size:100px;color: whitesmoke;"> SUMMER SNEAKERS</h1>
+                       <p class="three" >Lorem ipsum dolor sit amet consectetur . </p>
+                       
+                       <a href="#" class="btn btn-default bg-light" role="button">VIEW COLLECTION</a>
+                      
+                   </div>
+                </div>
+            </div>
+    
+            <div class="carousel-item">
+                <img src="pic8.jpg" class="w-100" alt="">
+                <div class="carousel-caption trickcenter trickcenter2">
+                    <div>
+                        
+                        <h1 class="d-inline-block  " style="font-size:100px;margin-bottom: -5px;font-family: 'Times New Roman', Times, serif;color: white;">  MA<span class="trickcolor" style="opacity: 80%;">TCHING</span> </h1><br>
+                        <h1 class="d-inline-block  " style="font-size:100px; font-family: 'Times New Roman', Times, serif;color: white;"> COL<span class="trickcolor" style="opacity: 80%;">LECTIONS</span></h1>
+                        
+                        <p class="three">Lorem ipsum dolor sit amet consectetur . </p>
+                        
+                        <a href="#" class="btn btn-default bg-light" role="button">START SHOPPING</a>
+                
+                    </div>
+                </div>
+            </div>
+    
+            <div class="carousel-item">
+                <img src="pic2.jpg" class="w-100" alt="">
+                <div class="carousel-caption trickcenter">
+                    <div>
+                        <p class=" d-inline-block skinny ">OUR BESTSELLER</p>
+                        <h1 class="d-inline-block jeans " style="font-size:100px;color: white;"> SKINNY JEANS</h1><br>
+                        
+                        <a href="#" class="btn btn-default bg-light" role="button">VIEW COLLECTION</a>
+                
+                    </div>
+    
+               
+            </div>
+        </div>
+        
+    </div>
+    <div class="jumbotron jumbotron-fluid sticky-top ">
+        <div class="container-fluid shakara-link-container" id="bone">
+
+            <a class="nav-link shakara-link2" href="#" style="color: darkgoldenrod; text-shadow: 5px rgba(0, 0, 0, .7);">JULIE
+                CLOTHING <i class="fab fa-shopify"></i></a>
+            <h3 class="assurance">Your  <strong class="shakarafont">Shakara</strong>  Is Our No 1 Priority!</h3>
+    
+        </div>
+    </div>
+    <div class="categories">
+        
+        
+        <div class="small-container">
+            <div class="row">
+                
+                <div class="col-4">
+                    <img src="pexels-ali-pazani-2584269.jpg" alt="">
+                    <div class="text">
+                        <h2 class="feature">Top Picks</h2>
+                        <a href="#" class="btn btn-default btn-special"  role="button">SHOP NOW</a>
+                    </div>
+
+                </div>
+                <div class="col-4">
+                    <img src="pexels-ali-pazani-2584269.jpg" alt="">
+                    <div class="text">
+                        <h2 class="feature">New Arrivals</h2>
+                        <a href="#" class="btn btn-default btn-special "  role="button">SHOP NOW</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="pexels-ali-pazani-2584269.jpg" alt="">
+                    <div class="text">
+                        <h2 class="feature">Try This</h2>
+                        <a href="#" class="btn btn-default btn-special"  role="button">SHOP NOW</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="pexels-ali-pazani-2584269.jpg" alt="">
+                    <div class="text">
+                        <h2 class="feature">Pants</h2>
+                        <a href="#" class="btn btn-default btn-outline-danger bg-transparent btn-special" style="color: white;" role="button">SHOP NOW</a>
+                       
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="pexels-ali-pazani-2584269.jpg" alt="">
+                    <div class="text">
+                        <h2 class="feature">Lookbook</h2>
+                        <a href="#" class="btn btn-default btn-outline-danger bg-transparent btn-special" style="color: white;" role="button">SHOP NOW</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="pexels-ali-pazani-2584269.jpg" alt="">
+                    <div class="text">
+                        <h2 class="feature">Jackets</h2>
+                        <a href="#" class="btn btn-default btn-outline-danger bg-transparent btn-special" style="color: white;" role="button">SHOP NOW</a>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="row" id="rowcolor">
+        <div class="column">
+            
+                <h6 class="shipping">FREE SHIPPING & RETURN</h6>
+                <i class="fas fa-shipping-fast" id="shipicon" style="font-size: 32px;"></i>
+                <p class="shipping">Free Shipping over $300 <br> So you can do your <strong>shakara</strong> to the fullest!</p>
+                
+                
+            
+
+        </div>
+        <div class="column">
+            
+                <h6 class="shipping">MONEY BACK GUARANTEE</h6>
+                <i class="fas fa-hand-holding-usd" id="shipicon" style="font-size: 32px;"></i>
+                <p class="shipping">30 Days Money Back Guarantee No shaking.</p>
+               
+            
+
+        </div>
+        <div class="column">
+            
+                <h6 class="shipping">080 000 000 00</h6>
+                <i class="fas fa-headset" id="shipicon"  style="font-size: 32px;"></i>
+                <p class="shipping">24/7 Available Support <br>We dey here kampe!</p>
+                
+            
+
+        </div>
+    </div>
+
+    <div class="row" id="rowcolor2">
+        <div class="column2">
+    
+            <h6 class="shipping">SELL.</h6>
+            <p class="shipping">Lorem ipsum dolor sit amet consectetur </p>
+            <ul class="socialmedia">
+                <li class="socialitem"><i class="fab fa-facebook"></i></li>
+                <li class="socialitem"><i class="fab fa-twitter"></i></li>
+                <li class="socialitem"><i class="fab fa-instagram"></i></li>
+                <li class="socialitem"><i class="fab fa-vimeo-v"></i></li>
+            </ul>
+    
+    
+    
+        </div>
+        <div class="column2">
+    
+            <h6 class="shipping">SHOP</h6>
+            
+            <ul class="shoppinglist">
+                <li class="shoppingitem"><a href="#" >For Men</a></li>
+                <li class="shoppingitem"><a href="#">For Women</a></li>
+                <li class="shoppingitem"><a href="#">Stores</a></li>
+                <li class="shoppingitem"><a href="#">Our Blog</a></li>
+                <li class="shoppingitem"><a href="#">Shop</a></li>
+            </ul>
+    
+    
+    
+        </div>
+
+        <div class="column2">
+        
+            <h6 class="shipping">COMPANY</h6>
+        
+            <ul class="shoppinglist">
+                <li class="shoppingitem"><a href="#">Login</a></li>
+                <li class="shoppingitem"><a href="#">Register</a></li>
+                <li class="shoppingitem"><a href="#">Wishlist</a></li>
+                <li class="shoppingitem"><a href="#">Our Products</a></li>
+                <li class="shoppingitem"><a href="#">Checkout</a></li>
+            </ul>
+        
+        
+        
+        </div>
+        <div class="column2">
+    
+            <h6 class="shipping">DAILY OFFERS & DISCOUNT</h6>
+            <p class="shipping">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    
+    
+    
+        </div>
+    </div>
+
+    
+    
+    
+        
+        
+    
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    
+</body>
+</html>
